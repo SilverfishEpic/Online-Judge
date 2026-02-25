@@ -18,7 +18,7 @@ int main()
         while ((S1lu %= S2lu) && (S2lu %= S1lu)) ;
         std::cout << "Pair #" << p << ": ";
         if (S1lu + S2lu - 1)
-            std::cout << "Love is not all you need!\n";
-        else std::cout << "All you need is love!";
+            std::cout << "All you need is love!\n";
+        else std::cout << "Love is not all you need!\n";
     }
 }
